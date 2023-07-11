@@ -14,7 +14,7 @@ body {
     background-image: url('../Flower Asset/pngwing\ 10.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-position-y: px;
+    background-position-y: 80px;
     background-position-x: 1500px;
 
 
@@ -44,16 +44,16 @@ body {
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
 
-   
+
 
     font-weight: 400;
-   
+
 
     margin-top: 20px;
     margin-bottom: 20px;
-   
+
     font-size: 18px;
-    
+
     margin-top: 20px;
     margin-left: 400px;
     display: flex;
@@ -94,7 +94,7 @@ main {
     height: 620px;
     justify-content: space-between;
     display: flexbox;
-    background-position-y: 0px;
+    background-position-y: 100px;
     background-position-x: 1500px;
 }
 
@@ -126,7 +126,6 @@ main {
     margin-top: 18px;
     margin-left: 700px;
 
-
 }
 
 .span-color {
@@ -146,4 +145,45 @@ main {
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
+}
+
+.social-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 120px;
+
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.box {
+    width: 232px;
+    height: 496px;
+
+
+    text-align: center;
+    padding: 50px;
+    color: white;
+    
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.image{
+    width: 342px;
+    height: 396px;
+   
 }
