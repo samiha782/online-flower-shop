@@ -11,61 +11,139 @@ body {
 
 .header {
     background: rgba(229, 84, 115, 0.10);
+    background-image: url('../Flower Asset/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-position-y: px;
+    background-position-x: 1500px;
+
 
 }
 
 .banner {
     height: 100vh;
-    width: 1920px;
+    width: 1000px;
     height: 850px;
-    flex-shrink: 0;
-    padding: 30px 50px 0px 150px;
+
+    padding: 30px 50px 0px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-}
-
-.banner-content {
-    max-width: 500px;
+    justify-content: space-around;
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
-
     font-weight: bold;
-
+    margin-top: 30px;
+    margin-left: 400px;
     display: flex;
     width: 708px;
-    flex-direction: column;
 }
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
 
-    font-size: 18px;
+   
 
     font-weight: 400;
-    line-height: 30px;
-    display: flex;
-    width: 634px;
+   
 
     margin-top: 20px;
     margin-bottom: 20px;
+   
+    font-size: 18px;
+    
+    margin-top: 20px;
+    margin-left: 400px;
+    display: flex;
+    width: 634px;
+
+
 }
 
 .btn-primary {
     color: #FFF;
 
     font-size: 20px;
-   border: 0px;
+    border: 0px;
     font-weight: 700;
-    display: inline-flex;
+
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
 
+    margin-top: 30px;
+    margin-left: 400px;
+
+}
+
+/* deal style */
+main {
+    margin-top: 130px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-main {
+
+    background-image: url('../Flower Asset/pngwing\ 8.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 620px;
+    justify-content: space-between;
+    display: flexbox;
+    background-position-y: 0px;
+    background-position-x: 1500px;
+}
+
+.deal {
+    height: 100vh;
+    height: 620px;
+    justify-content: space-between;
+    display: flexbox;
+    padding: 50px 50px 0px 50px;
+
+}
+
+.deal-title {
+    color: #272727;
+
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 230px;
+    margin-left: 700px;
+
+}
+
+.deal-description {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    margin-top: 18px;
+    margin-left: 700px;
+
+
+}
+
+.span-color {
+    color: #E55473;
+}
+
+.btn-sign-up {
+    margin-top: 18px;
+    margin-left: 880px;
+    color: #FFF;
+
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
 }
