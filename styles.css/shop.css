@@ -167,23 +167,92 @@ main {
 }
 
 .box {
-    width: 232px;
-    height: 496px;
+    /* width: 232px;
+    height: 496px; */
 
 
     text-align: center;
     padding: 50px;
     color: white;
-    
+
 }
 
 .social-container {
     display: flex;
     justify-content: space-around;
-   
+
 }
-.image{
+
+.image {
     width: 342px;
     height: 396px;
-   
+
+}
+
+/* latest section style */
+
+.latest {
+    /* background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 400px; */
+
+
+}
+
+.latest-deal {
+    width: 1440px;
+    height: 449px;
+
+}
+
+.section-title {
+
+
+    margin-top: 100px;
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.center {
+    color: rgba(39, 39, 39, 0.60);
+
+    margin-top: 10px;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+
+}
+.btn-subscribe{
+    /* margin-top: 18px;
+    margin-left: 880px; */
+    color: #FFF;
+
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+
+    padding: 20px 43px;
+    /* gap: 10px; */
+    border-radius: 8px;
+    background: #E55473;
 }
